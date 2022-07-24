@@ -1,0 +1,27 @@
+:root {
+  /* Primary Colors */
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral Colors */
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  --font-size: 15px;
+  --family-title: "Big Shoulders Display";
+  --family-body: "Lexend Deca", sans-serif;
+
+  font-size: var(--font-size);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--family-title);
+  /* font-family: var(--family-lexend); */
+}

@@ -1,0 +1,11 @@
+.button {
+  --size: 2em;
+  font-family: var(--family-body);
+  padding: 1em var(--size);
+  background: var(--very-light-gray);
+  color: var(--color);
+  border-radius: var(--size);
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}

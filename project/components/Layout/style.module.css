@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  padding: 2em;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  border-radius: 0.5em;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+@media (min-width: 375px) {
+  .main {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1440px) {
+  .main {
+    flex-direction: row;
+  }
+}
